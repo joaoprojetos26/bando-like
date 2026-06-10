@@ -1,0 +1,6 @@
+atividade 2
+SELECT City AS 'cidade', CustomerName AS 'loja'
+FROM Customers
+WHERE City LIKE 'B%'
+ORDER BY City ASC, CustomerName ASC;
+atividade 3
