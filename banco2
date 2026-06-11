@@ -70,3 +70,11 @@ SELECT  PostalCode AS 'Codigo',
 FROM Customers
 WHERE PostalCode Like '1%'
 ORDER BY CustomerName ASC;
+
+atividade 12
+SELECT ContactName AS 'Nome',
+       Country AS 'pais',
+       City AS 'Cidade'
+FROM Customers
+WHERE City LIKE 'Madrid'
+ORDER BY ContactName ASC;
