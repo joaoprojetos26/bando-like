@@ -10,3 +10,10 @@ PostalCode AS 'codigo postal'
 FROM Customers
 WHERE Country like 'france'
 ORDER BY PostalCode asc;
+atividade 4
+SELECT
+       Country AS 'pais',
+       City AS 'Cidade'
+FROM Customers
+WHERE Country like 'city'
+ORDER BY country asc,city asc;
