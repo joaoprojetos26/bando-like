@@ -1,3 +1,8 @@
+atividade 1
+SELECT CustomerName AS 'Empresa'
+FROM Customers
+ORDER BY CustomerName ASC;
+
 atividade 2
 SELECT City AS 'cidade', 
 CustomerName AS 'loja'
