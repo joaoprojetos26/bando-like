@@ -169,3 +169,27 @@ WHERE ContactName LIKE 'J%'
 ORDER BY Country ASC, PostalCode ASC;
 
 atividade 26
+SELECT CustomerID AS 'ID',
+CustomerName AS 'Cliente',City AS 'Cidade'
+FROM Customers
+WHERE City not like 'london'
+ORDER BY CustomerID ASC;
+
+atividade 27 
+SELECT ContactName AS 'Cliente'
+FROM Customers
+ORDER BY ContactName ASC;
+
+atividade 28
+SELECT PostalCode AS 'Cod/Postal' ,CustomerName AS 'cliente',Country AS 'pais'
+FROM Customers
+WHERE Country LIKE 'Canada'
+ORDER BY PostalCode ASC, CustomerName ASC;
+
+atividade 28
+SELECT CustomerName AS 'Enpresa',Country AS'Pais'
+FROM Customers
+WHERE CustomerName LIKE '%Global%'
+ORDER BY Country ASC;
+
+atividade 29
