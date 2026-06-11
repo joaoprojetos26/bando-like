@@ -78,3 +78,11 @@ SELECT ContactName AS 'Nome',
 FROM Customers
 WHERE City LIKE 'Madrid'
 ORDER BY ContactName ASC;
+atividade 13 
+ SELECT ContactName AS 'Nome',
+       Country AS 'pais',
+       City AS 'Cidade'
+FROM Customers
+WHERE City LIKE 'p%'
+ORDER BY  Country ;
+
