@@ -43,3 +43,30 @@ ContactName AS 'loja'
 FROM Customers
 WHERE ContactName LIKE 'A%'
 ORDER BY CustomerID;
+ 
+atividade 8 
+SELECT  Country AS Cidade
+FROM Customers
+WHERE Country NOT LIKE 'Canada'
+ORDER BY 'PostalCode'
+
+atividade9 
+SELECT  Country AS 'Cidade',
+        CustomerName AS 'Nome'
+FROM Customers
+WHERE CustomerName Like 'Shop'
+ORDER BY 'Country'
+
+atividade 10
+SELECT  Country AS 'Cidade',
+        CustomerName AS 'cliente'
+FROM Customers
+WHERE Country Like 'mexico'
+ORDER BY Country ASC;
+
+atividade 11
+SELECT  PostalCode AS 'Codigo',
+        CustomerName AS 'cliente'
+FROM Customers
+WHERE PostalCode Like '1%'
+ORDER BY CustomerName ASC;
