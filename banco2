@@ -36,3 +36,10 @@ Country AS 'pais'
 FROM Customers
 WHERE city like 'USA'
 ORDER BY City DESC;
+ 
+atividade 7
+SELECT CustomerID AS 'ID',
+ContactName AS 'loja'
+FROM Customers
+WHERE ContactName LIKE 'A%'
+ORDER BY CustomerID;
