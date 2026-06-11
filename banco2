@@ -86,3 +86,10 @@ FROM Customers
 WHERE City LIKE 'p%'
 ORDER BY  Country,CustomerID ;
 
+atividade 14
+SELECT ContactName AS 'Nome',
+       Country AS 'pais',
+       City AS 'Cidade'
+FROM Customers
+WHERE City LIKE 'New York'
+ORDER BY  CustomerName;
