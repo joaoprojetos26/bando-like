@@ -84,5 +84,5 @@ atividade 13
        City AS 'Cidade'
 FROM Customers
 WHERE City LIKE 'p%'
-ORDER BY  Country ;
+ORDER BY  Country,CustomerID ;
 
