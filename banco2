@@ -34,7 +34,7 @@ SELECT ContactName AS 'nome',
 City AS 'cidade',
 Country AS 'pais'
 FROM Customers
-WHERE city like 'USA'
+WHERE Country like 'USA'
 ORDER BY City DESC;
  
 atividade 7
@@ -93,3 +93,20 @@ SELECT ContactName AS 'Nome',
 FROM Customers
 WHERE City LIKE 'New York'
 ORDER BY  CustomerName;
+
+atividade 15
+SELECT ContactName AS 'Nome',
+       Country AS 'pais',
+       City AS 'Cidade'
+FROM Customers
+WHERE Country LIKE '%a'
+ORDER BY  City;
+
+atividade 16
+SELECT PostalCode AS Codigo,
+       Country AS 'pais',
+       City AS 'Cidade'
+FROM Customers
+WHERE PostalCode LIKE '5%'
+ORDER BY  ContactName;
+​
