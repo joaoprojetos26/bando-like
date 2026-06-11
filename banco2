@@ -193,3 +193,44 @@ WHERE CustomerName LIKE '%Global%'
 ORDER BY Country ASC;
 
 atividade 29
+SELECT CustomerName, Country
+FROM Customers
+WHERE CustomerName LIKE '%Global%'
+ORDER BY Country ASC;
+
+
+atividade 30
+SELECT CustomerName AS 'Cliente',Country AS 'pais',City AS 'Cidade'
+FROM Customers
+WHERE Country LIKE 'I%'
+ORDER BY City ASC;
+
+atividade 31
+SELECT CustomerName AS 'Enpresa', ContactName AS 'Cliente'
+FROM Customers
+WHERE CustomerName LIKE 'T%'
+ORDER BY ContactName DESC;
+
+atividade32
+SELECT City AS 'Cidade',PostalCode AS 'cod/postal' 
+FROM Customers
+WHERE City Like 'Chicago'
+ORDER BY PostalCode ASC;
+
+atividade 33
+SELECT CustomerName AS 'Empresa',ContactName 'Cliente'
+FROM Customers
+WHERE Country like 'Italy'
+ORDER BY CustomerName ASC, ContactName ASC;
+
+atividade 34
+SELECT CustomerID as 'ID',CustomerName AS 'cliente'
+FROM Customers
+WHERE CustomerName LIKE 'B%'
+ORDER BY CustomerID ASC;
+
+ATIVIDADE 35
+SELECT ContactName 'Cliente',Country AS 'Pais', City AS 'Cidade'
+FROM Customers
+WHERE City LIKE '%o'
+ORDER BY Country ASC;
