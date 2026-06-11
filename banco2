@@ -1,8 +1,10 @@
 atividade 2
-SELECT City AS 'cidade', CustomerName AS 'loja'
+SELECT City AS 'cidade', 
+CustomerName AS 'loja'
 FROM Customers
 WHERE City LIKE 'B%'
 ORDER BY City ASC, CustomerName ASC;
+
 atividade 3
 SELECT ContactName AS 'nome',
 Country AS 'pais',
@@ -10,6 +12,7 @@ PostalCode AS 'codigo postal'
 FROM Customers
 WHERE Country like 'france'
 ORDER BY PostalCode asc;
+
 atividade 4
 SELECT
        Country AS 'pais',
@@ -17,3 +20,19 @@ SELECT
 FROM Customers
 WHERE Country like 'city'
 ORDER BY country asc,city asc;
+
+atidade 5
+SELECT ContactName AS 'nome', 
+City AS 'cidade',
+Country AS 'pais'
+FROM Customers
+WHERE city like 'Berlin'
+ORDER BY ContactName asc;
+
+atidade 6
+SELECT ContactName AS 'nome', 
+City AS 'cidade',
+Country AS 'pais'
+FROM Customers
+WHERE city like 'USA'
+ORDER BY City DESC;
