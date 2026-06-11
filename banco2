@@ -110,3 +110,20 @@ FROM Customers
 WHERE PostalCode LIKE '5%'
 ORDER BY  ContactName;
 ​
+atividade 17
+SELECT PostalCode AS 'CodigoPostal', 
+CustomerName AS 'Clientes'
+FROM Customers
+ORDER BY PostalCode ASC ;
+
+atividade 18
+SELECT CustomerName AS 'cliente'
+FROM Customers 
+where CustomerName like '%l' 
+ORDER BY Country ASC ,City ASC;
+
+atividade 19
+SELECT CustomerName AS 'Cliente',Country AS 'Pais'
+FROM Customers
+WHERE Country LIKE 'Germany'
+ORDER BY CustomerName ASC;
