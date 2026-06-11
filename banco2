@@ -15,8 +15,8 @@ ORDER BY PostalCode asc;
 
 atividade 4
 SELECT
-       Country AS 'pais',
-       City AS 'Cidade'
+Country AS 'pais',
+City AS 'Cidade'
 FROM Customers
 WHERE Country like 'city'
 ORDER BY country asc,city asc;
@@ -52,60 +52,60 @@ ORDER BY 'PostalCode'
 
 atividade9 
 SELECT  Country AS 'Cidade',
-        CustomerName AS 'Nome'
+CustomerName AS 'Nome'
 FROM Customers
 WHERE CustomerName Like 'Shop'
 ORDER BY 'Country'
 
 atividade 10
 SELECT  Country AS 'Cidade',
-        CustomerName AS 'cliente'
+CustomerName AS 'cliente'
 FROM Customers
 WHERE Country Like 'mexico'
 ORDER BY Country ASC;
 
 atividade 11
 SELECT  PostalCode AS 'Codigo',
-        CustomerName AS 'cliente'
+CustomerName AS 'cliente'
 FROM Customers
 WHERE PostalCode Like '1%'
 ORDER BY CustomerName ASC;
 
 atividade 12
 SELECT ContactName AS 'Nome',
-       Country AS 'pais',
-       City AS 'Cidade'
+Country AS 'pais',
+City AS 'Cidade'
 FROM Customers
 WHERE City LIKE 'Madrid'
 ORDER BY ContactName ASC;
 atividade 13 
  SELECT ContactName AS 'Nome',
-       Country AS 'pais',
-       City AS 'Cidade'
+ Country AS 'pais',
+City AS 'Cidade'
 FROM Customers
 WHERE City LIKE 'p%'
 ORDER BY  Country,CustomerID ;
 
 atividade 14
 SELECT ContactName AS 'Nome',
-       Country AS 'pais',
-       City AS 'Cidade'
+Country AS 'pais',
+City AS 'Cidade'
 FROM Customers
 WHERE City LIKE 'New York'
 ORDER BY  CustomerName;
 
 atividade 15
 SELECT ContactName AS 'Nome',
-       Country AS 'pais',
-       City AS 'Cidade'
+Country AS 'pais',
+ City AS 'Cidade'
 FROM Customers
 WHERE Country LIKE '%a'
 ORDER BY  City;
 
 atividade 16
 SELECT PostalCode AS Codigo,
-       Country AS 'pais',
-       City AS 'Cidade'
+Country AS 'pais',
+City AS 'Cidade'
 FROM Customers
 WHERE PostalCode LIKE '5%'
 ORDER BY  ContactName;
@@ -127,3 +127,45 @@ SELECT CustomerName AS 'Cliente',Country AS 'Pais'
 FROM Customers
 WHERE Country LIKE 'Germany'
 ORDER BY CustomerName ASC;
+
+atividade 20
+SELECT ContactName AS 'Nome de contato'
+FROM Customers
+WHERE ContactName LIKE '%son%'
+ORDER BY PostalCode ASC;
+
+atividade 21
+SELECT CustomerName AS 'ClientesJaponeses'
+FROM Customers
+WHERE City like 'Tokyo'
+ORDER BY CustomerName DESC;
+
+atividade 22
+SELECT ContactName AS 'Cliente', CustomerID AS 'ID'
+FROM Customers
+WHERE PostalCode LIKE '%00'
+ORDER BY CustomerID ASC;
+
+atividade 23
+SELECT ContactName AS 'Cliente',
+Country AS 'Pais',City AS 'Cidade' 
+FROM Customers
+WHERE City LIKE 'Paris'
+ORDER BY Country ASC;
+
+atividade24
+SELECT CustomerName AS 'cliente',
+City as 'Cidade'
+FROM Customers
+WHERE City LIKE 'S%'
+ORDER BY CustomerName ASC;
+
+atidade25
+SELECT ContactName AS Cliente,
+Country AS 'Pais',
+PostalCode AS 'cod/postal'
+FROM Customers
+WHERE ContactName LIKE 'J%'
+ORDER BY Country ASC, PostalCode ASC;
+
+atividade 26
