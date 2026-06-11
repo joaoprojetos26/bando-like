@@ -4,3 +4,9 @@ FROM Customers
 WHERE City LIKE 'B%'
 ORDER BY City ASC, CustomerName ASC;
 atividade 3
+SELECT ContactName AS 'nome',
+Country AS 'pais',
+PostalCode AS 'codigo postal'
+FROM Customers
+WHERE Country like 'france'
+ORDER BY PostalCode asc;
